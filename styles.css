@@ -1,0 +1,22 @@
+/* Cards */
+.card {
+    transition: transform 0.3s;
+    border-radius: 15px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow effect */
+}
+
+.card:hover {
+    transform: translateY(-5px); /* Lift on hover */
+}
+
+/* Search Input */
+#searchInput {
+    border-radius: 20px;
+    border: 1px solid #ccc; /* Add border for distinction */
+    padding: 0.5rem 1rem; /* Add padding for input comfort */
+}
+
+/* Card Body */
+.card-body {
+    padding: 1.5rem; /* Spacious padding */
+}

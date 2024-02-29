@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Favorite Movies</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="row align-items-center"> <!-- Use Bootstrap row with align-items-center class -->
+            <div class="col-6"> <!-- Use half of the container for h1 -->
+                <h1 class="my-4">Favorite Movies</h1>
+            </div>
+            <div class="col-6 text-right"> <!-- Use the other half for button with text-right class -->
+                <button class="btn btn-primary mt-3" onclick="goToHomePage()">Home</button>
+            </div>
+        </div>
+        <div id="favoriteMovies" class="row"></div>
+    </div>
+
+    <script src="favorites.js"></script>
+</body>
+</html>
