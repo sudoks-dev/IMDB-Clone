@@ -14,7 +14,7 @@ function searchMovies() {
     }
 
     // Fetching data from the OMDb API based on the search query
-    fetch(`http://www.omdbapi.com/?i=tt3896198&apikey=16f94fa7&s=${query}`)
+    fetch(`https://www.omdbapi.com/?i=tt3896198&apikey=16f94fa7&s=${query}`)
         .then(response => response.json()) // Parsing the response as JSON
         .then(data => displaySearchResults(data)) // Displaying search results
         .catch(error => console.error('Error:', error)); // Handling any errors
